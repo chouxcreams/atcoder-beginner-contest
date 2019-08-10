@@ -19,5 +19,13 @@
             "int(input())"
         ],
         "description": "Int Input for AtCoder"
+    },
+
+    "Priority Queue": {
+        "prefix": "heap",
+        "body": [
+            "from heapq import heapify, heappush, heappop"
+        ],
+        "description": "import heapq function"
     }
 }
