@@ -54,5 +54,12 @@
             "            divisors.appendleft(num)",
             "    return divisors"
         ]
+    },
+    "Priority Queue": {
+        "prefix": "heap",
+        "body": [
+            "from heapq import heapify, heappush, heappop"
+        ],
+        "description": "import heapq function"
     }
 }
