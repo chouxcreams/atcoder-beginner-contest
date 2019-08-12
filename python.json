@@ -43,15 +43,14 @@
     "Divisor": {
         "prefix": "divisor",
         "body": [
-            "# nの約数を求める。計算量O(N)",
             "def divisor(n):",
             "    from math import sqrt",
-            "    from collections import deque",
-            "    divisors = deque([])",
-            "    for num in range(int(sqrt(n)), n+1):",
+            "    divisors = []",
+            "    for num in range(1, int(sqrt(n))):",
             "        if n % num == 0:",
             "            divisors.append(n//num)",
-            "            divisors.appendleft(num)",
+            "            if n//num != num:       ",
+            "                divisors.appendleft(num)",
             "    return divisors"
         ]
     },
@@ -61,5 +60,12 @@
             "from heapq import heapify, heappush, heappop"
         ],
         "description": "import heapq function"
+    },
+    "Character To Index": {
+        "prefix": "c2i",
+        "body": [
+            "c2i = lambda x: ord(c) - ord('a')"
+        ],
+        "description": "Conversion character to index(0-25)"
     }
 }
