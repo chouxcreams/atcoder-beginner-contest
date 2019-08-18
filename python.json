@@ -1,20 +1,20 @@
 {
     "List Input": {
-        "prefix": "inp",
+        "prefix": ["inp","list"],
         "body": [
             "list(map(int, input().split()))"
         ],
         "description": "List Input for AtCoder"
     },
     "Map Input": {
-        "prefix": "inp",
+        "prefix": ["inp","map"],
         "body": [
             "map(int, input().split())"
         ],
         "description": "Map Input for AtCoder"
     },
     "Int Input": {
-        "prefix": "inp",
+        "prefix": ["inp","int"],
         "body": [
             "int(input())"
         ],
@@ -65,6 +65,14 @@
         "prefix": "c2i",
         "body": [
             "c2i = lambda x: ord(c) - ord('a')"
+        ],
+        "description": "Conversion character to index(0-25)"
+    },
+    "Set Recursion Limit": {
+        "prefix": "rec",
+        "body": [
+            "import sys",
+            "sys.setrecursionlimit(1000000000)"
         ],
         "description": "Conversion character to index(0-25)"
     }
