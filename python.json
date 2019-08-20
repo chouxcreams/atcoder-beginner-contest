@@ -75,5 +75,13 @@
             "sys.setrecursionlimit(1000000000)"
         ],
         "description": "Conversion character to index(0-25)"
+    },
+    "System Standard Input": {
+        "prefix": ["sys", "input"],
+        "body" : [
+            "import sys",
+            "input = sys.stdin.readline"
+        ],
+        "description" : "Using more rapidly input"
     }
 }
