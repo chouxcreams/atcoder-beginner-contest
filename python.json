@@ -43,7 +43,7 @@
     "Divisor": {
         "prefix": "divisor",
         "body": [
-            "def get_divisors(n, reverse=False)",
+            "def get_divisors(n, reverse=False):",
             "    from math import sqrt",
             "    divisors = []",
             "    for num in range(1, int(sqrt(n))+1):",
@@ -64,7 +64,7 @@
     "Character To Index": {
         "prefix": "c2i",
         "body": [
-            "c2i = lambda x: ord(c) - ord('a')"
+            "c2i = lambda c: ord(c) - ord('a')"
         ],
         "description": "Conversion character to index(0-25)"
     },
