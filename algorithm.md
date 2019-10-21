@@ -30,3 +30,21 @@ for i, s in enumerate(S):
 ```
 ### 参考
 https://snuke.hatenablog.com/entry/2014/12/03/214243
+
+## Warshall-Floyd Algorithm
+abc143_e
+
+時間計算量O(N^3)
+```python
+# Warshall-Floyd Algorithm
+def warshall_floyd(distance):
+    N = len(distance)
+    for k in range(N):
+        for i in range(N):
+            for j in range(N):
+                distance[i][j] = min(distance[i][j], distance[i][k]+distance[k][j])
+    return distance
+```
+
+参考
+https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E2%80%93%E3%83%95%E3%83%AD%E3%82%A4%E3%83%89%E6%B3%95
