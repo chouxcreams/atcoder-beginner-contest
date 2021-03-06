@@ -2,3 +2,4 @@
 *.code-workspace
 .venv/
 .idea/
+node_modules/
