@@ -13,10 +13,11 @@
   "author": "chouxcreams",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chouxcreams/atcoder-beginner-contset/issues"
+    "url": "https://github.com/chouxcreanpms/atcoder-beginner-contset/issues"
   },
   "homepage": "https://github.com/chouxcreams/atcoder-beginner-contset#readme",
   "dependencies": {
-    "atcoder-cli": "^2.1.0"
+    "atcoder-cli": "^2.1.0",
+    "axios": "^0.21.1"
   }
 }
