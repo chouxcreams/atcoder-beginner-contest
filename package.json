@@ -4,7 +4,9 @@
   "description": "for only atcoder-cli",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "bash ./test.sh",
+    "new": "bash ./new.sh",
+    "submit": "bash ./submit.sh"
   },
   "repository": {
     "type": "git",
