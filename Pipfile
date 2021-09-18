@@ -11,6 +11,7 @@ online-judge-tools = "*"
 flake8 = "*"
 isort = "*"
 black = "==21.9b0"
+pre-commit = "*"
 
 [requires]
 python_version = "3.8"
