@@ -14,3 +14,7 @@ black = "==21.9b0"
 
 [requires]
 python_version = "3.8"
+
+[scripts]
+lint="bash ./lint.sh"
+format="bash ./format.sh"
