@@ -21,5 +21,9 @@
   "dependencies": {
     "atcoder-cli": "^2.1.0",
     "axios": "^0.21.2"
+  },
+  "volta": {
+    "node": "14.17.6",
+    "npm": "7.24.0"
   }
 }
