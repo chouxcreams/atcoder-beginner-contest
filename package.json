@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/chouxcreams/atcoder-beginner-contset#readme",
   "dependencies": {
-    "atcoder-cli": "^2.1.0",
+    "atcoder-cli": "^2.1.1",
     "axios": "^0.21.2"
   },
   "volta": {

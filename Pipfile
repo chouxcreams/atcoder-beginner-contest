@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 idna = "*"
+online-judge-tools = "*"
 
 [dev-packages]
-online-judge-tools = "*"
 flake8 = "*"
 isort = "*"
 black = "==21.9b0"
