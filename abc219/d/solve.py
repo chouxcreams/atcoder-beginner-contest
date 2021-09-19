@@ -15,7 +15,7 @@ for i in range(1, N + 1):
     b = B[i - 1]
     for x in range(X + 1):
         for y in range(Y + 1):
-            if x +a >= X:
+            if x + a >= X:
                 x1 = X
             else:
                 x1 = x + a
