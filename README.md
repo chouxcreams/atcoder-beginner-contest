@@ -1,3 +1,4 @@
+[![Badge](https://cp-logo.vercel.app/atcoder/chouxcreams)](https://atcoder.jp/users/chouxcreams)
 # About
 AtCoder Beginner Contestに参加したときの私的記録
 
